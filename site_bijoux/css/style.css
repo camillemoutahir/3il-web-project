@@ -1,0 +1,278 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+footer a {
+    color: white;
+  }
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #f0c040;
+}
+
+table{
+    justify-content: center;
+}
+
+#viewer, #presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#presentation p {
+    margin: 0 0 20px 0;
+}
+
+.image-slider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+#slider-description {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.carousel-wrapper {
+    height: auto;
+    position: relative;
+}
+
+#slider-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.jewelry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.jewelry-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jewelry-item img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.jewelry-description {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jewelry-description p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;    
+}
+
+.admin-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.admin-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.admin-button:hover {
+    background-color: #444;
+}
+
+#contact-management {
+    margin: 20px;
+}
+
+#contact-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#contact-management th, #contact-management td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#edit-form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#edit-form input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #f0c040;
+    outline: none;
+    box-shadow: 0 0 5px rgba(240, 192, 64, 0.5);
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-left: 1rem;
+}
+
+.nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.burger-icon {
+    font-size: 30px;
+}
+
+#descriptions-management form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 50%;
+}
+
+#descriptions-management table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,52 @@
+@media (max-width:768px){
+    #presentation,#viewer,nav{
+        flex-direction:column
+    }
+
+    h1 {
+        font-size: 2em
+    }
+
+    .admin-section {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin: 20px auto;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .jewelry-gallery{
+        display:flex;
+        flex-direction:column
+    }
+
+    .jewelry-item {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .jewelry-description {
+        align-items: flex-start ;
+        justify-content: center;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-list.show {
+        display: block;
+    }
+
+    .burger-menu {
+        display: block;
+      }
+}
+
+@media (min-width: 769px) {
+    #burger-menu {
+        display: none;
+    }
+}
